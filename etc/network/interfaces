@@ -1,0 +1,12 @@
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+auto eth0
+
+####### LAN
+
+iface eth2 inet static
+	address 217.149.117.5
+	netmask 255.255.255.0
+	network 217.149.117.0/24
